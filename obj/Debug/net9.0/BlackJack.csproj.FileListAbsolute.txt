@@ -1,0 +1,15 @@
+C:\Users\Marc\Documents\Programming\BlackJack\bin\Debug\net9.0\BlackJack.exe
+C:\Users\Marc\Documents\Programming\BlackJack\bin\Debug\net9.0\BlackJack.deps.json
+C:\Users\Marc\Documents\Programming\BlackJack\bin\Debug\net9.0\BlackJack.runtimeconfig.json
+C:\Users\Marc\Documents\Programming\BlackJack\bin\Debug\net9.0\BlackJack.dll
+C:\Users\Marc\Documents\Programming\BlackJack\bin\Debug\net9.0\BlackJack.pdb
+C:\Users\Marc\Documents\Programming\BlackJack\obj\Debug\net9.0\BlackJack.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Marc\Documents\Programming\BlackJack\obj\Debug\net9.0\BlackJack.AssemblyInfoInputs.cache
+C:\Users\Marc\Documents\Programming\BlackJack\obj\Debug\net9.0\BlackJack.AssemblyInfo.cs
+C:\Users\Marc\Documents\Programming\BlackJack\obj\Debug\net9.0\BlackJack.csproj.CoreCompileInputs.cache
+C:\Users\Marc\Documents\Programming\BlackJack\obj\Debug\net9.0\BlackJack.sourcelink.json
+C:\Users\Marc\Documents\Programming\BlackJack\obj\Debug\net9.0\BlackJack.dll
+C:\Users\Marc\Documents\Programming\BlackJack\obj\Debug\net9.0\refint\BlackJack.dll
+C:\Users\Marc\Documents\Programming\BlackJack\obj\Debug\net9.0\BlackJack.pdb
+C:\Users\Marc\Documents\Programming\BlackJack\obj\Debug\net9.0\BlackJack.genruntimeconfig.cache
+C:\Users\Marc\Documents\Programming\BlackJack\obj\Debug\net9.0\ref\BlackJack.dll

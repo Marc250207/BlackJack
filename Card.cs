@@ -12,10 +12,11 @@ namespace BlackJack {
             Symbol = symbol;
             Value = value;
         }
+        
 
         public override string ToString()
         {
-            return Symbol + " of " + Color;
+            return Symbol + " of " + Color + " ("+Value+")";
         }
     }
 }
