@@ -3,11 +3,11 @@
         private static List<Card> cards = new();
 
         public static void Main(string[] args) {
-            InitializeCardStack();
+            InitializeCards();
         }
 
 
-        private static void InitializeCardStack() {
+        private static void InitializeCards() {
             foreach(string color in Card.colors) {
                 foreach(string symbol in Card.symobls) {
                     if (!int.TryParse(symbol, out int value))
