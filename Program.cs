@@ -1,6 +1,6 @@
 ﻿namespace BlackJack {
     class Program {
-        private static Stack<Card> cardstack = new();
+        private static List<Card> cards = new();
 
         public static void Main(string[] args) {
             InitializeCardStack();
@@ -8,7 +8,6 @@
 
 
         private static void InitializeCardStack() {
-            List<Card> cards = new();
             foreach(string color in Card.colors) {
                 foreach(string symbol in Card.symobls) {
                     if (!int.TryParse(symbol, out int value))
@@ -17,22 +16,35 @@
                         else value = 10;
                     }
 
-                    Card card = new(color, symbol, value);
+                    Card card = new Card(color, symbol, value);
                     cards.Add(card);
                 }
             }
         }
 
-        private static void PrintList<T>(List<T> list) {
-            foreach(T item in list) Console.WriteLine(item);
+
+        private Stack<Card> GetShuffledCardStack() {
+            cards.Shuffle();
+
+            Stack<Card> stack = new();
+            foreach(Card card in cards) stack.Push(card);
+
+
+            return stack;
         }
     }
+
+
 
     static class ListExtensions {
         private static readonly Random rng = new Random();
 
         public static void Shuffle<T>(this List<T> list) {
             list.Sort((a, b) => rng.Next(-1, 2));
+        }
+
+        public static void Print<T>(this List<T> list) {
+            foreach(T item in list) Console.WriteLine(item);
         }
     }
 }
