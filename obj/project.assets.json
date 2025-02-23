@@ -14,9 +14,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Marc\\Documents\\Programming\\BlackJack\\X.csproj",
-      "projectName": "X",
-      "projectPath": "C:\\Users\\Marc\\Documents\\Programming\\BlackJack\\X.csproj",
+      "projectUniqueName": "C:\\Users\\Marc\\Documents\\Programming\\BlackJack\\BlackJack.csproj",
+      "projectName": "BlackJack",
+      "projectPath": "C:\\Users\\Marc\\Documents\\Programming\\BlackJack\\BlackJack.csproj",
       "packagesPath": "C:\\Users\\Marc\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Marc\\Documents\\Programming\\BlackJack\\obj\\",
       "projectStyle": "PackageReference",
