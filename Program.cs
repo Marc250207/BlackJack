@@ -1,5 +1,4 @@
-﻿
-namespace X {
+﻿namespace BlackJack {
     static class Program {
         private static readonly Card[] cards = new Card[7];
         private static readonly char[] symbols = [

@@ -1,4 +1,4 @@
-namespace X {
+namespace BlackJack {
     class Card {
         public char Symbol { get; set; }
         public int Value { get; set; }
